@@ -1,0 +1,55 @@
+/* The whole browser */
+
+body{
+	margin: 0px;
+	background-image: url("voorbeeld/header_bg.jpg");
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Position of the image of the webpage browser*/
+
+.webpageImage{
+	margin: 300px auto 50px auto;
+	display: block;
+}
+
+
+
+
+/* Menu */
+
+.whiteBar{
+	background-color: white;
+}
+
+.whiteBar > i{
+	padding: 20px;
+	background-color: lightgrey;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.whiteBar > i:nth-of-type(1){
+	margin-left: 83%;
+}
+
+.menuItems{
+	text-align: center;
+}
+
+
+
+
+/* Boss menu */
+
+.menuItems > i{
+	color: grey;
+	font-size: 25px;
+	margin: 0px 15px;
+}
+
+/* Boss text */
+
+a{
+	text-decoration: none;
+	color: grey;
+}
